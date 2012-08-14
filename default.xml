@@ -246,7 +246,7 @@
   <project path="packages/apps/CMUpdateNotify" name="CyanogenMod/android_packages_apps_CMUpdateNotify" />
   <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" />
   <project path="packages/apps/CMWimaxSettings" name="CyanogenMod/android_packages_apps_CMWimaxSettings" />
-  <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" />
+  <project path="packages/apps/Contacts" name="barrykn/android_packages_apps_Contacts-cm-bkndh1" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
   <project path="packages/apps/DockAudio" name="CyanogenMod/android_packages_apps_DockAudio" />
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" />
