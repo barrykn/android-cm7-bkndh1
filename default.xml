@@ -64,7 +64,7 @@
   <project path="device/motorola/common" name="CyanogenMod/android_device_motorola_common" />
   <project path="device/motorola/droid2" name="CyanogenMod/android_device_motorola_droid2" />
   <project path="device/motorola/droid2we" name="CyanogenMod/android_device_motorola_droid2we" />
-  <project path="device/motorola/jordan" name="CyanogenMod/android_device_motorola_jordan" />
+  <project path="device/motorola/jordan" name="barrykn/android_device_motorola_jordan-cm-2waysup" />
   <project path="device/motorola/morrison" name="CyanogenMod/android_device_motorola_morrison" />
   <project path="device/motorola/motus" name="CyanogenMod/android_device_motorola_motus" />
   <project path="device/motorola/olympus" name="CyanogenMod/android_device_motorola_olympus" />
