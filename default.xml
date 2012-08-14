@@ -5,7 +5,7 @@
            review="review.source.android.com" />
 
   <remote  name="github"
-           fetch=".."
+           fetch="https://github.com/"
            review="review.cyanogenmod.com" />
 
   <default revision="gb-release-7.2"
