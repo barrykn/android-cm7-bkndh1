@@ -307,7 +307,7 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="system/wlan/ti" name="CyanogenMod/android_system_wlan_ti" />
 
-  <project path="vendor/cyanogen" name="CyanogenMod/android_vendor_cyanogen" />
+  <project path="vendor/cyanogen" name="barrykn/android_vendor_cyanogen-bkndh1" />
   <project path="vendor/motorola" name="CyanogenDefy/proprietary_vendor_motorola" revision="gingerbread" />
   <project path="vendor/qcom/opensource/webkit" name="CyanogenMod/android_vendor_qcom_opensource_webkit" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
