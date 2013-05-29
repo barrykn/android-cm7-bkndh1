@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <manifest>
+
+  <remote  name="omapzoom" fetch="git://git.omapzoom.org/" />
+  <remote  name="gh" fetch="git://github.com/" />
+
+  <remove-project name="CyanogenMod/android_frameworks_av" />
+  <remove-project name="CyanogenMod/android_frameworks_base" />
+  <remove-project name="CyanogenMod/android_external_wpa_supplicant_8" />
+  <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
+  <remove-project name="CyanogenMod/android_hardware_ti_omap4xxx" />
+  <remove-project name="CyanogenMod/android_hardware_ti_wpan" />
+  <remove-project name="CyanogenMod/android_system_core" />
+
+  <!-- CM replacements -->
+  <project path="frameworks/av" name="Quarx2k/android_frameworks_av" revision="mr1-staging" />
+  <project path="frameworks/base" name="Quarx2k/android_frameworks_base" />
+  <project path="hardware/libhardware_legacy" name="STS-Dev-Team/android_hardware_libhardware_legacy"/>
+  <project path="hardware/ti/omap4xxx" name="STS-Dev-Team/android_hardware_ti_omap4xxx" />
+  <project path="hardware/ti/wpan" name="Hashcode/android_hardware_ti_wpan.git"/>
+  <project path="system/core" name="STS-Dev-Team/android_system_core"/>
+
+  <!-- omapzoom projects -->
+  <project path="external/wpa_supplicant_8_ti" name="platform/external/wpa_supplicant_8_ti" remote="omapzoom" revision="p-jb-mr1-release" />
+
+  <!-- OMAP4 projects -->
+  <project path="kernel/motorola/omap4_xt912" name="STS-Dev-Team/kernel_omap4_xt912" revision="master" />
+  <project path="kernel/motorola/mapphone" name="STS-Dev-Team/kernel_mapphone_kexec" revision="3.0.31" />
+
+  <project path="device/motorola/common" name="Quarx2k/android_device_omap4_motorola_common" revision="mr1-staging" />
+  <project path="device/motorola/umts_spyder" name="Quarx2k/android_device_motorola_umts_spyder" revision="mr1-staging" />
+
+  <project path="vendor/motorola/common" name="STS-Dev-Team/android_vendor_motorola_common" revision="jb-mr1"/>
+  <project path="vendor/motorola/umts_spyder" name="STS-Dev-Team/android_vendor_motorola_umts_spyder" revision="master" />
+
+  </manifest>
+

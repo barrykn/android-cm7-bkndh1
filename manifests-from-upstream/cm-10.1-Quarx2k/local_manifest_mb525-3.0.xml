@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="omapzoom" fetch="git://git.omapzoom.org/" />
+  <remote  name="gh" fetch="git://github.com/" />
+
+  <!-- CM removals -->
+  <remove-project name="CyanogenMod/android_frameworks_av" />
+  <remove-project name="CyanogenMod/android_frameworks_base" />
+  <remove-project name="CyanogenMod/android_hardware_ril" />
+  <remove-project name="CyanogenMod/android_system_core" />
+  <remove-project name="CyanogenMod/android_bootable_recovery" />
+  <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
+  <remove-project name="CyanogenMod/android_packages_apps_Settings" />
+
+  <project path="frameworks/av" name="Quarx2k/android_frameworks_av"  />
+  <project path="frameworks/base" name="Quarx2k/android_frameworks_base" />
+  <project path="hardware/ril" name="Quarx2k/android_hardware_ril" />
+  <project path="bootable/recovery" name="Quarx2k/android_bootable_recovery" revision="jb4.2-defy" />
+  <project path="vendor/motorola" name="Quarx2k/proprietary_vendor_motorola" revision="cm10.1-3.0" />
+  <project path="device/moto/jordan-common" name="Quarx2k/android_device_moto_jordan-common" revision="cm10.1-3.0" />
+  <project path="device/moto/mb526" name="Quarx2k/android_device_moto_mb526" revision="cm10.1-3.0" />
+  <project path="device/moto/mb520" name="CyanogenKobe/android_device_moto_mb520" revision="jellybean"/>
+  <project path="external/bootmenu" name="Quarx2k/android_external_bootmenu" revision="jellybean"/>
+  <project path="packages/apps/HwaSettings" name="royale1223/HwaSettings" revision="master" />
+  <project path="jordan-kernel" name="Quarx2k/jordan-kernel" revision="p-android-omap3-3.0" />
+  <project path="system/core" name="Quarx2k/android_system_core" />
+  <project path="frameworks/opt/telephony" name="Quarx2k/android_frameworks_opt_telephony" />
+  <project path="packages/apps/Settings" name="Quarx2k/android_packages_apps_Settings"/>
+
+</manifest>

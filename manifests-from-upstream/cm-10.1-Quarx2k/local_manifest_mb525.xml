@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- CM removals -->
+  <remove-project name="CyanogenMod/android_frameworks_av" />
+  <remove-project name="CyanogenMod/android_frameworks_base" />
+  <remove-project name="CyanogenMod/android_frameworks_native" />
+  <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
+  <remove-project name="CyanogenMod/android_hardware_ril" />
+  <remove-project name="CyanogenMod/android_system_core" />
+  <remove-project name="CyanogenMod/android_hardware_ti_omap3" />
+  <remove-project name="CyanogenMod/android_bootable_recovery" /> 
+  <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
+ <!--   <remove-project name="CyanogenMod/android_system_vold" /> -->
+  <remove-project name="CyanogenMod/android_packages_apps_Settings" />
+  <remove-project name="CyanogenMod/android_hardware_ti_wlan"/>
+
+  <project path="frameworks/av" name="Quarx2k/android_frameworks_av"  />
+  <project path="frameworks/base" name="Quarx2k/android_frameworks_base" />
+  <project path="frameworks/native" name="Quarx2k/android_frameworks_native" />
+  <project path="hardware/ril" name="Quarx2k/android_hardware_ril" />
+  <project path="hardware/ti/omap3" name="CyanogenDefy/android_hardware_ti_omap3-compat" revision="jellybean"/>
+  <project path="bootable/recovery" name="TeamWin/Team-Win-Recovery-Project" revision="twrp2.5" />
+  <project path="packages/apps/MotoFM" name="maniac103/android_packages_apps_MotoFM" revision="jellybean" /> 
+  <project path="packages/apps/MotoFMService" name="maniac103/android_packages_apps_MotoFMService" revision="gingerbread" />
+  <project path="vendor/motorola" name="Quarx2k/proprietary_vendor_motorola" revision="jellybean"/>
+  <project path="device/moto/jordan-common" name="Quarx2k/android_device_moto_jordan-common" revision="cm10.1-2.6.32" />
+  <project path="device/moto/mb526" name="Quarx2k/android_device_moto_mb526" revision="cm10.1-2.6.32"  />
+  <project path="device/moto/mb520" name="CyanogenKobe/android_device_moto_mb520" />
+  <project path="external/bootmenu" name="Quarx2k/android_external_bootmenu" revision="jellybean"/>
+  <project path="packages/apps/HwaSettings" name="royale1223/HwaSettings" revision="master" />
+  <project path="jordan-kernel" name="Quarx2k/jordan-kernel" revision="AeroKernel" />
+  <project path="hardware/libhardware_legacy" name="Quarx2k/android_hardware_libhardware_legacy" />
+  <project path="system/core" name="Quarx2k/android_system_core" />
+  <project path="frameworks/opt/telephony" name="Quarx2k/android_frameworks_opt_telephony"  />
+ <!--   <project path="system/vold" name="Quarx2k/android_system_vold" revision="mr1-staging" /> -->
+  <project path="packages/apps/Settings" name="Quarx2k/android_packages_apps_Settings" />
+  <project path="hardware/ti/wlan" name="Quarx2k/android_hardware_ti_wlan" />
+</manifest>
