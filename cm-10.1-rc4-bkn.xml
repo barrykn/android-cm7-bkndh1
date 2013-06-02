@@ -383,7 +383,5 @@
   <project name="TheMuppets/proprietary_vendor_invensense" path="vendor/invensense" revision="cm-10.1" />
 
   <project name="CyanogenMod/android_device_samsung_maguro" path="device/samsung/maguro" remote="github" />
-  <project name="CyanogenMod/android_kernel_samsung_tuna" path="kernel/samsung/tuna" remote="github" />
-  <project name="CyanogenMod/android_device_samsung_tuna" path="device/samsung/tuna" remote="github" />
 
 </manifest>
