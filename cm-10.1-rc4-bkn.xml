@@ -280,7 +280,7 @@
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" />
   <project path="packages/apps/CMUpdater" name="CyanogenMod/android_packages_apps_CMUpdater" />
   <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" />
-  <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" />
+  <project path="packages/apps/Contacts" name="barrykn/android_packages_apps_Contacts-cm-bkndh1" revision="cm-10.1-rc4-bkn" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" />
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" />
@@ -375,4 +375,15 @@
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
+
+
+  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" revision="cm-10.1" />
+  <project name="TheMuppets/proprietary_vendor_imgtec" path="vendor/imgtec" revision="cm-10.1" />
+  <project name="TheMuppets/proprietary_vendor_broadcom" path="vendor/broadcom" revision="cm-10.1" />
+  <project name="TheMuppets/proprietary_vendor_invensense" path="vendor/invensense" revision="cm-10.1" />
+
+  <project name="CyanogenMod/android_device_samsung_maguro" path="device/samsung/maguro" remote="github" />
+  <project name="CyanogenMod/android_kernel_samsung_tuna" path="kernel/samsung/tuna" remote="github" />
+  <project name="CyanogenMod/android_device_samsung_tuna" path="device/samsung/tuna" remote="github" />
+
 </manifest>
